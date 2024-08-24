@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gooseberry Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        Free climate compensated shipping on all orders above $125 USD
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="menu-search">
+            <div class="menu-icon" id="menu-icon">
+                <img src="./images/menu.png" alt="Menu" id="menu-image">
+                <img src="./images/close.png" alt="Close" id="close-image" style="display: none;">
+            </div>
+            <img src="./images/search.png" alt="Search" class="nav-icon">
+        </div>
+        
+        <div class="nav-center">
+            <img src="./images/logo.png" alt="Gooseberry" class="logo">
+        </div>
+        <div class="nav-right">
+            <img src="./images/favourite.png" alt="Wishlist" class="nav-icon">
+            <img src="./images/cart.png" alt="Cart" class="nav-icon">
+        </div>
+    </nav>
+
+    <!-- Menu Overlay (Hidden by default) -->
+    <div class="menu-overlay" id="menu-overlay">
+        <div class="menu-content">
+            <h2>SHOP BY CATEGORY</h2>
+            <div class="category-list">
+                <div class="category-item" data-category="Bras">
+                    <img src="./images/bra.png" alt="Bras" class="category-image">
+                    <a href="#" class="category-link">BRAS</a>
+                </div>
+                <div class="category-item" data-category="Panties">
+                    <img src="./images/pentypng.png" alt="Panties" class="category-image">
+                    <a href="#" class="category-link">PANTIES</a>
+                </div>
+                <div class="category-item" data-category="Swimwear">
+                    <img src="./images/swimwear.png" alt="Swimwear" class="category-image">
+                    <a href="#" class="category-link">SWIMWEAR</a>
+                </div>
+                <div class="category-item" data-category="Lingerie">
+                    <img src="./images/lingerie.png" alt="Lingerie" class="category-image">
+                    <a href="#" class="category-link">LINGERIE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dynamic Content Area -->
+    <div id="content-area" class="content-area">
+        <p>Select a category from the menu.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
